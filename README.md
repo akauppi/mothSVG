@@ -37,7 +37,7 @@ Let's Go! 🏃‍♂️
 ## Kicking Tires
 
 ```
-$ npm init
+$ npm install
 ```
 
 ## Development
