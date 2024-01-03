@@ -1,6 +1,12 @@
-.DS_Store
-node_modules
-yarn.lock
-package-lock.json
-index.js
-index.mjs
+/node_modules/
+
+/out/
+
+#yarn.lock
+#package-lock.json
+
+#index.js
+#index.mjs
+
+# If you're on macOS, please ignore these at a global level
+#.DS_Store

@@ -38,7 +38,10 @@ Let's Go! 🏃‍♂️
 
 ```
 $ npm install
+$ npm run build
 ```
+
+This 
 
 ## Development
 
