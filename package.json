@@ -1,12 +1,15 @@
 {
-  "name": "mothSVG",
+  "name": "moth-svg",
+  "version": "0.0.0",
+  "description": "Interactive vector graphics",
   "svelte": "src/index.svelte",
-  "module": "out/index.mjs",
-  "main": "out/index.js",
-  "scripts": {
-    "build": "rollup -c",
-    "build:watch": "rollup -cw",
-    "prepublishOnly": "npm run build"
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "author": "Asko Kauppi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akauppi/mothSVG.git"
   },
   "devDependencies": {
     "rollup": "^1.27.4",
@@ -14,19 +17,8 @@
     "rollup-plugin-svelte": "^5.1.1",
     "svelte": "^3.15.0"
   },
-  "files": [
-    "src",
-    "out/index.mjs",
-    "out/index.js"
-  ],
-  "description": "Interactive vector graphics component",
-  "version": "0.0.0",
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akauppi/mothSVG.git"
-  },
-  "author": "Asko Kauppi",
-  "license": "MIT",
-  "homepage": "https://github.com/akauppi/mothSVG#readme"
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  }
 }

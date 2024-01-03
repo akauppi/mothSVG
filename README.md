@@ -64,4 +64,4 @@ For everyone else, `npm run build` will bundle your component's source code into
 ## References
 
 - Based on [sveltejs/component-template](https://github.com/sveltejs/component-template)
-
+- [EmilTholin/svelte-spinner](https://github.com/EmilTholin/svelte-spinner/blob/db0a2439e19a0f967b82715aa5cd1bc9a62149c9/package.json#L5-L7)
